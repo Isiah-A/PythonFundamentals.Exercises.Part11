@@ -70,3 +70,11 @@ class Classroom:
     def print_students(self):
         [print(f"{key}: {value}") for key, value in self.students.items()]
 
+
+bob = Person('bob', 'johnson', 12 / 12 / 2000, AliveStatus.alive)
+bob_student = Student('bob', 'johnson', 12/12/2000, AliveStatus.alive) #shouldn't have to add same fields??
+room12 = Classroom()
+room12.add_student(bob_student)
+room12.print_students()
+room12.remove_student(bob_student)
+
