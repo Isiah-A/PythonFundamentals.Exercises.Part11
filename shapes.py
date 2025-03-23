@@ -1,4 +1,4 @@
-from exponentiator import square
+
 
 
 class Rectangle:
@@ -16,8 +16,18 @@ class Rectangle:
 
 
 class Square(Rectangle):
-    def __init__(self, length):
+    def __init__(self, length, width):
+        super().__init__(length, width)
         self.length = length
         self.width = length
 
 
+# sq = square(12)
+# print(sq)
+
+req = Rectangle(40, 10)
+print(req.length)
+print(req.width)
+
+sq = Square(12, 12)
+print(sq.width + sq.length)
