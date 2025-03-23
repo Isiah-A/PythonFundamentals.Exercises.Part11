@@ -25,9 +25,9 @@ class Square(Rectangle):
 # sq = square(12)
 # print(sq)
 
-req = Rectangle(40, 10)
-print(req.length)
-print(req.width)
-
-sq = Square(12, 12)
-print(sq.width + sq.length)
+# req = Rectangle(40, 10)
+# print(req.length)
+# print(req.width)
+#
+# sq = Square(12, 12)
+# print(sq.width + sq.length)
