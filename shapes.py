@@ -1,3 +1,4 @@
+from exponentiator import square
 
 
 class Rectangle:
